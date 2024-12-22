@@ -1,0 +1,11 @@
+[UNIT]
+Description=Directory Change Logger Service
+After=network.target
+
+[Servive]
+ExecStart=/usr/bin/python3 /home/ubuntu/bsm/file_monitor.py
+Restart=always
+User=mobin
+
+[Install]
+WantedBy=multi-user.target
