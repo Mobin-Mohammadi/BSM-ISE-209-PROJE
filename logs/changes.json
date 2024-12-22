@@ -1,0 +1,4 @@
+{"event_type": "created", "src_path": "/home/ubuntu/bsm/test/sample_file.txt"}
+{"event_type": "created", "src_path": "/home/ubuntu/bsm/test/another_file.txt"}
+{"event_type": "modified", "src_path": "/home/ubuntu/bsm/test/sample_file.txt"}
+{"event_type": "deleted", "src_path": "/home/ubuntu/bsm/test/sample_file.txt"} 
